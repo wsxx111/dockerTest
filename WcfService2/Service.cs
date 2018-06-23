@@ -18,7 +18,10 @@ namespace WcfService2
             // return $"You entered:{ value}";
         }
 
-
+        public string GetString()
+        {
+            return "哈哈哈";
+        }
     }
     [DataContract]
     public class People

@@ -46,3 +46,4 @@ C:\Users\wangkai3\Desktop\dockerTest\WcfService2\bin\Microsoft.ApplicationInsigh
 C:\Users\wangkai3\Desktop\dockerTest\WcfService2\bin\Newtonsoft.Json.xml
 C:\Users\wangkai3\Desktop\dockerTest\WcfService2\obj\Debug\WcfService2.dll
 C:\Users\wangkai3\Desktop\dockerTest\WcfService2\obj\Debug\WcfService2.pdb
+C:\Users\wangkai3\Desktop\dockerTest\WcfService2\obj\Debug\WcfService2.csprojResolveAssemblyReference.cache

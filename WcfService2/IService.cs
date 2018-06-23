@@ -22,7 +22,18 @@ namespace WcfService2
             BodyStyle = WebMessageBodyStyle.Bare
             )]
         string GetData();
-     
+
+        [OperationContract]
+        //[WebGet(UriTemplate = "Test/Json", ResponseFormat = WebMessageFormat.Json)]
+        [WebInvoke(
+           Method = "GET",
+           RequestFormat = WebMessageFormat.Json,
+           ResponseFormat = WebMessageFormat.Json,
+           UriTemplate = "GetString/Json",
+           BodyStyle = WebMessageBodyStyle.Bare
+           )]
+        string GetString();
+
     }
    
 }
