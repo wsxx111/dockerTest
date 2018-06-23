@@ -17,7 +17,7 @@ namespace WcfService2
              return JsonConvert.SerializeObject(p1);
             // return $"You entered:{ value}";
         }
-
+   
         public string GetString()
         {
             return "哈哈哈";
